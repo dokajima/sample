@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src='//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js'></script>
+</head>
+<body>
+  <div id='message'></div>
+  <script>
+    require(['dojo/dom', 'dojo/html', 'dojo/domReady!'], function(dom, html) {
+      html.set(dom.byId('message'), 'sample');
+    });
+  </script>
+</body>
+</html>
